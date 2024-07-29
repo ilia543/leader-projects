@@ -6,8 +6,9 @@ print("if number is 11,22,33,44,55,66,77,88,99 you are chad")
 player2 = input("are you rady yes or no: ")
 if player2 == "yes":
     print("good")
+    print(compuxter)
 elif player2 == "no" :
-    print("you ar lucky. I dk how to cod deelet windows")
+    print("you are lucky. I dk how to write cod that deelet windows")
+    print(compuxter)
 else : 
     print(":(")
-print(compuxter)
