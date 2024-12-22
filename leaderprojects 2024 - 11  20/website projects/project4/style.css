@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.game-container {
+    text-align: center;
+    background-color: rgb(0, 171, 0);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px #ffffff;
+    width: 300px;
+}
+
+#login-form {
+    margin-bottom: 20px;
+}
+
+#login-form input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 60%;
+}
+
+#login-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #45a049;
+}
+
+#username {
+    font-weight: bold;
+}
+
+.slots {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.slot {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+#spinButton {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#spinButton:hover{
+    box-shadow: none;
+}
+#spinButton:hover {
+    background-color: #0b7dda;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#result p {
+    font-size: 16px;
+}
