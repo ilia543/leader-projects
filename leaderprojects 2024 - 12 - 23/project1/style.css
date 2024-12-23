@@ -1,30 +1,17 @@
-#countLabel{
-    display: block;
-    text-align: center;
-    font-size: 10em;
-    font-family: Arial, Helvetica, sans-serif;
+.strength{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 15px;
+    top: 50px;
 }
-#btnContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#strength1{
+    left: 8px;
 }
-.buttons{
-    padding: 20px 30px;
-    font-size: 1.5em;
-    color: white;
-    background-color: rgb(43, 105, 45);
-    border: none;
-    border-radius: 7.5px;
-    cursor: pointer;
-    transition: background-color .25s;
+#strength2{
+    left: 70px;
 }
-.buttons:hover{
-    background-color: rgb(34, 82, 35);
-}
-.firstbtn{
-    padding: 5px;
-}
-.secondbtn{
-    padding: 5px;
+#strength3{
+    left: 132px;
 }
