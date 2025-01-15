@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(255, 240, 196);
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 80px; /* დაშორება!!! */
+}
+.divs{
+    background-color: rgb(241, 209, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+img{
+    width: 400px;
+    border-radius: 10px;
+}
+.name{
+    font-size: 36px;
+    font-weight: 600;
+    color: #254336;
+}
+.price{
+    font-size: 23px;
+    font-weight: 600;
+    color: #254336;
+}
+button{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+button:hover{
+    background-color: hsl(162, 44%, 23%);
+}
+#bar {
+    background-color: rgb(255, 249, 229);
+    position: fixed;
+    width: 99%;
+    height: 60px;
+    box-shadow: 4px 4px 1px black;
+    color: #254336;
+    border-radius: 40px;
+    right: 10px;
+    transition: 0.5s;
+    top: 10px;
+}
+#bar:hover {
+    box-shadow: none;
+}
+#p1 {
+    position: relative;
+    position: absolute;
+    color: #254336;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+#p1:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+#p2 {
+    position: relative;
+    position: absolute;
+    color: #254336;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 140px;
+    transition: 0.3s;
+}
+#p2:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+#p3 {
+    position: relative;
+    position: absolute;
+    color: #254336;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 270px;
+    transition: 0.3s;
+}
+#p3:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+#p5 {
+    border: none;
+    position: relative;
+    position: absolute;
+    color: #254336;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 410px;
+    transition: 0.3s;
+}
+#p5:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+#p4 {
+    position: relative;
+    position: absolute;
+    color: #254336;
+    margin-top: 1px;
+    margin-left: 560px;
+    font-size: 40px;
+    font-weight: 900;
+    transition: 0.5s;
+    text-decoration: none;
+}
+#p4:hover {
+    color: green;
+}
+#sectbarimg {
+    position: relative;
+    position: absolute;
+    width: 150px;
+    margin-left: 800px;
+    border-radius: 20px;
+}
+#p6 {
+    position: relative;
+    position: absolute;
+    color: #254336;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 1080px;    
+    transition: 0.3s;    
+}
+#p6:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+#p7 {
+    position: relative;
+    position: absolute;
+    color: #254336;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 1160px;    
+    transition: 0.3s;    
+}
+#p7:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+#p8 {
+    position: relative;
+    position: absolute;
+    color: #254336;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 1280px;    
+    transition: 0.3s;  
+}
+#p8:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}

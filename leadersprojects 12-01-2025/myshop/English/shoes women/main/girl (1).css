@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 240, 196);
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 60px; /* დაშორება!!! */
+}
+.divs{
+    background-color: rgb(237, 222, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+img{
+    width: 400px;
+    border-radius: 10px;
+}
+.name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #254336;
+}
+.price{
+    font-size: 23px;
+    font-weight: 600;
+    color: #254336;
+}
+button{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+button:hover{
+    background-color: hsl(162, 44%, 23%);
+}
+.free{
+    width: 70px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

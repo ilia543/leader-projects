@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 240, 196);
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img{
+    width: 500px;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+#name{
+    font-size: 40px;
+    font-weight: 700;
+    color: #254336;
+}
+#description{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+}
+#price{
+    font-size: 30px;
+    font-weight: 700;
+    color: #254336;
+}
+button{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+button:hover{
+    background-color: hsl(162, 44%, 23%);
+}
+
+
+.fre{
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    text-decoration: wavy;
+    justify-content: center;
+}

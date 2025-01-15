@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin | Mode Walker</title>
+    <link rel="icon" href="/modewalker.png">
+    <link rel="stylesheet" href="spin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="spinbtn">spin</div>
+        <div class="wheel">
+            <div class="number" style="--i:1;--clr:#db7093;"><span>1</span></div>
+            <div class="number" style="--i:2;--clr:#256976;"><span>5</span></div>
+            <div class="number" style="--i:3;--clr:#b9a39f;"><span>30</span></div>
+            <div class="number" style="--i:4;--clr:#303030;"><span>10</span></div>
+            <div class="number" style="--i:5;--clr:#afaeaf;"><span>20</span></div>
+            <div class="number" style="--i:6;--clr:#003a37;"><span>15</span></div>
+            <div class="number" style="--i:7;--clr:#001861;"><span>35</span></div>
+            <div class="number" style="--i:8;--clr:#b2209c;"><span>50</span></div>
+
+
+        </div>
+        <script>
+            let wheel = document.querySelector('.wheel');
+            let spinbtn = document.querySelector('.spinbtn');
+            let value = Math.ceil(Math.random() * 3600);
+
+            spinbtn.onclick = function() {
+                wheel.style.transform ="rotate(" + value + "deg)";
+                value += Math.ceil(Math.random() * 3600);
+                
+            }
+            
+        </script>
+        
+
+
+
+    </div>
+    <div>
+        <a href="http://127.0.0.1:5500/English/Home/home.html"><button id="button">click to buy product</button></a>
+    </div>
+</body>
+</html>
