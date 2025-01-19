@@ -14,7 +14,7 @@ body {
     width: 300px;
     background-color: rgb(189, 255, 134);
     border: 2ps solid black;
-    box-shadow: 10px 10px 0px green;
+    box-shadow: 5px 5px 0px green;
     transition: 1s;
 }
 .container:hover{

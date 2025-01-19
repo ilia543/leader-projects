@@ -93,7 +93,6 @@ function showWelcomePage(username) {
 
 // ექაუნთიდან გამოსვლის დროს წავშალოთ მომხმარებლის ინფო სთორეჯიდნ სტარტ //////////////////
 function logout() {
-    localStorage.removeItem("userData");
     showLoginForm();
 }
 // // ექაუნთიდან გამოსვლის დროს წავშალოთ მომხმარებლის ინფო სთორეჯიდნ ენდ //////////////////
